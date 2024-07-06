@@ -46,7 +46,7 @@ const Banner = () => {
         </p>
         <div className="flex items-center">
           <a
-            href="https://drive.google.com/file/d/1KdOEO__F8Rcqa22LmYQCRt5MyKbPzAto/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1R-veufcYJtCW2LcFkd8MjfhfvguCVIKX/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -82,8 +82,9 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/1KdOEO__F8Rcqa22LmYQCRt5MyKbPzAto/view?usp=drivesdk"
-              target="blank"
+              href="https://drive.google.com/file/d/1R-veufcYJtCW2LcFkd8MjfhfvguCVIKX/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <PrimaryBtn>
                 <span>Resume</span>
@@ -130,8 +131,9 @@ export default function Navbar() {
                 <li className="text-center m-4">
                   <a
                     className="inline-block w-full"
-                    href="https://drive.google.com/file/d/1KdOEO__F8Rcqa22LmYQCRt5MyKbPzAto/view?usp=drivesdk"
-                    target="blank"
+                    href="https://drive.google.com/file/d/1R-veufcYJtCW2LcFkd8MjfhfvguCVIKX/view?usp=drivesdk"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button className="primary-button w-full text-white">
                       <span>Resume</span>

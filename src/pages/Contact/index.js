@@ -9,19 +9,15 @@ import {
   FaLocationArrow,
   FaLinkedin,
   FaGithubSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
 } from "react-icons/fa";
 import { MdEmail, MdSend } from "react-icons/md";
-import emailjs, { send } from "@emailjs/browser";
+import { send } from "@emailjs/browser";
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
 import { BottomLine } from "../../components";
 
 const Contact = () => {
-  const navigate = useNavigate();
   const form = useRef();
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
   const [viewDiv, setViewDiv] = useState(false);
@@ -34,34 +30,6 @@ const Contact = () => {
       setViewDiv(false);
     }
   }, [inView, animation]);
-
-  // const handleSend = (e) => {
-  //   e.preventDefault();
-  //   emailjs
-  //     .sendForm(
-  //       "service_y8icbfd",
-  //       "template_lq9fd3j",
-  //       form.current,
-  //       "NtH9InUFFclUNhMFl"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         Swal.fire({
-  //           position: "top-end",
-  //           icon: "success",
-  //           title: "Your Message has been sent",
-  //           showConfirmButton: false,
-  //           timer: 1500,
-  //         });
-  //         navigate("/");
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  //   e.target.reset();
-  // };
 
   const sendEmail = (event) => {
     event.preventDefault();
@@ -203,20 +171,7 @@ const Contact = () => {
             >
               <FaGithubSquare></FaGithubSquare>
             </a>
-            {/* <a
-              href="https://twitter.com/GilbertHutapeaa"
-              target="blank"
-              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaTwitterSquare></FaTwitterSquare>
-            </a>
-            <a
-              href="https://www.instagram.com/bethup97/"
-              target="blank"
-              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaInstagramSquare></FaInstagramSquare>
-            </a> */}
+            
           </div>
         </motion.div>
       </div>
