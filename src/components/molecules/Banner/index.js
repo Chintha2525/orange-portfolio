@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import Lottie from "react-lottie";
 import bannerLottie from "../../../assets/bannerLottie.json"
 import "../../../pages/shared/Shared.css";
-import "../MySkill/Skill.css";
 import { SecondaryBtn } from "../../../components";
 
 const Banner = () => {
@@ -69,7 +68,7 @@ const Banner = () => {
         </div>
       </motion.div>
       <motion.div
-        className="w-full lg:w-1/2 banner-lottie"
+        className="w-full lg:w-1/2"
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
