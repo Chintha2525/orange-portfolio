@@ -5,7 +5,7 @@ import { RiFolderInfoFill } from "react-icons/ri";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
-import coding from "../../../assets/coding.json";
+import bannerLottie from "../../../assets/bannerLottie.json"
 import "../../../pages/shared/Shared.css";
 import { SecondaryBtn } from "../../../components";
 
@@ -13,7 +13,7 @@ const Banner = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: coding,
+    animationData: bannerLottie,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -59,7 +59,7 @@ const Banner = () => {
           </a>
           <Link to="/about" className="ml-4">
             <SecondaryBtn>
-              <span>About Me</span>
+              <span>ABOUT ME</span>
               <span>
                 <RiFolderInfoFill />
               </span>

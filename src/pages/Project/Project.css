@@ -1,5 +1,5 @@
 .active-btn {
-    color: #FF651C;
+    color: #1afff4;
     background-color: transparent;
 }
 
@@ -28,7 +28,7 @@
     left: 15px;
     padding: 10px;
     text-align: center;
-    border: 2px solid #FF651C;
+    border: 2px solid #1afff4;
     border-radius: 5px;
     content: '';
     opacity: 0;

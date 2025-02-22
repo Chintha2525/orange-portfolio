@@ -28,7 +28,7 @@ export default function Navbar() {
   const activeLink = ({ isActive }) => {
     return {
       fontWeight: 500,
-      color: isActive && "#FF651C",
+      color: isActive && "#1afff4",
     };
   };
 

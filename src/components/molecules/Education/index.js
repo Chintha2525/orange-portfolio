@@ -1,12 +1,12 @@
 import React from "react";
 import Lottie from "react-lottie";
-import readingBook from "../../../assets/reading-book.json";
+import readingLottie from "../../../assets/readingLottie.json";
 
 const Education = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: readingBook,
+    animationData: readingLottie,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },

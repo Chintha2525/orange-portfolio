@@ -65,7 +65,7 @@ const Project = () => {
         >
           <div className="mt-6 mb-2 flex items-center justify-center flex-wrap">
             <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
+              className={`btn btn-sm bg-primary border-2 border-primary hover:text-primary hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "all" && "active-btn"
                 }`}
               onClick={() => {
                 setActiveBtn("all");
@@ -77,7 +77,7 @@ const Project = () => {
               All
             </button>
             <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "business" && "active-btn"
+              className={`btn btn-sm bg-primary border-2 border-primary hover:text-primary hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "business" && "active-btn"
                 }`}
               onClick={() => {
                 setActiveBtn("business");
@@ -87,7 +87,7 @@ const Project = () => {
               Business
             </button>
             <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "personal" && "active-btn"
+              className={`btn btn-sm bg-primary border-2 border-primary hover:text-primary hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${activeBtn === "personal" && "active-btn"
                 }`}
               onClick={() => {
                 setActiveBtn("personal");
@@ -97,7 +97,7 @@ const Project = () => {
               Personal
             </button>
             <button
-            className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
+            className={`btn btn-sm bg-primary border-2 border-primary hover:text-primary hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
               activeBtn === "game" && "active-btn"
             }`}
             onClick={() => {
@@ -137,7 +137,7 @@ const Project = () => {
                       to={`/project/${item.id}`}
                       className="mt-3 inline-block"
                     >
-                      <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent text-white hover:border-primary duration-500">
+                      <button className="btn btn-sm border-2 border-transparent bg-primary hover:bg-transparent hover:text-primary hover:border-primary duration-500">
                         See Details
                       </button>
                     </Link>

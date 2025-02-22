@@ -15,7 +15,7 @@
 
 .input-field:focus {
     outline: none;
-    box-shadow: 0 0 5px 2px #FF651C;
+    box-shadow: 0 0 5px 2px #1afff4;
 }
 
 input:-webkit-autofill,
