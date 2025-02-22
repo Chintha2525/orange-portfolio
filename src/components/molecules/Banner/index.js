@@ -74,7 +74,7 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="bannerLottie">
+        <div className="banner-lottie">
           <Lottie options={defaultOptions} height="70%" width="80%" />
         </div>
       </motion.div> 
