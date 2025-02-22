@@ -69,14 +69,12 @@ const Banner = () => {
         </div>
       </motion.div>
       <motion.div
-        className="w-full lg:w-1/2"
+        className="w-full lg:w-1/2 banner-lottie"
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="banner-lottie">
           <Lottie options={defaultOptions} height="70%" width="80%" />
-        </div>
       </motion.div> 
     </div>
   );
