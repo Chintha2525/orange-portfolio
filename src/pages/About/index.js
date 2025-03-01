@@ -84,7 +84,7 @@ const About = () => {
             <br />
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center md:text-left">
               <a
-                href="https://drive.google.com/file/d/18l7_Vdys4nQcheUKU1lKy0Ahwlqu4LLK/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/18tFfuOkTorUHpZWWx9nTo-gjf0eQMORb/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
