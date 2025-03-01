@@ -82,7 +82,7 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/16AXi5pVJibaTR9EEDzGYMBj0LVUcCLpx/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/18l7_Vdys4nQcheUKU1lKy0Ahwlqu4LLK/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -131,7 +131,7 @@ export default function Navbar() {
                 <li className="text-center m-4">
                   <a
                     className="inline-block w-full"
-                    href="https://drive.google.com/file/d/16AXi5pVJibaTR9EEDzGYMBj0LVUcCLpx/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/18l7_Vdys4nQcheUKU1lKy0Ahwlqu4LLK/view?usp=drivesdk"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
